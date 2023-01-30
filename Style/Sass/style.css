@@ -1,0 +1,32 @@
+.header {
+  margin: 0 auto;
+  padding: 0;
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.section {
+  color: red;
+  background-color: black;
+  width: 500px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.section__1 {
+  color: yellow;
+  background-color: pink;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

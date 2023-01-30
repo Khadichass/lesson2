@@ -1,0 +1,40 @@
+@mixin header {
+  margin: 0 auto;
+  padding: 0;
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.header {
+  @include header();
+}
+
+@mixin section(
+  $color,
+  $backgroundcolor,
+  $width,
+  $height,
+  $margin,
+  $padding,
+  $borderradius,
+  $display
+) {
+  color: $color;
+  background-color: $backgroundcolor;
+  width: $width;
+  height: $height;
+  margin: $margin;
+  padding: $padding;
+  border-radius: $borderradius;
+  display: $display;
+}
+
+.section {
+  @include section(red, black, 500px, 200px, 20px, 20px, 10px, flex);
+}
+
+.section__1 {
+  @include section(yellow, pink, 100px, 50px, 10px, 10px, 5px, flex);
+}
